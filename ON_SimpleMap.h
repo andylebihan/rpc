@@ -4,6 +4,8 @@
 #error RHLIB header included in non-Rhino compile
 #endif
 
+//Deprecated - use std::unordered_map
+
 template<class KEY, unsigned int HashTableSize>
 __forceinline unsigned int OSM_HashIndex(const KEY& key)
 {
